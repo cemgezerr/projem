@@ -1,0 +1,28 @@
+.giris-btn .btn{
+    border: 1px solid blue;
+    border-radius: 20px; 
+}
+.world{
+    width: 50px;
+    color: blue;
+}
+.navbar-nav{
+   position: relative;
+    left: 70px;
+    padding: 10px !important;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.slide{
+    background-size:cover !important;
+}
+.endex{
+    position: relative;
+    right: 80px;
+}
+.yüzde-sifir{
+    position: relative;
+    top: 60px;
+}
