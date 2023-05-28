@@ -13,7 +13,6 @@
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-  <script defer src="site.js"></script>
 
 </head>
 <body>
@@ -94,7 +93,7 @@
         <div class="container-fluid endex">
           <div class="row">
             <div class="col-md-12">
-             <img src="img/Adsız.png" alt="">
+             <img  class="img-fluid" src="img/Adsız.png" alt="">
             </div>
           </div>
         </div>
@@ -114,7 +113,7 @@
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <button onclick="document.getElementById('myImage').src='img/bitcoin.webp'" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               Accordion Item #1
             </button>
           </h2>
@@ -126,7 +125,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <button onclick="document.getElementById('myImage').src='img/sale-banner-zero-commission-template-design_23-2149834592.avif'" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" >
               Accordion Item #2
             </button>
           </h2>
@@ -138,7 +137,7 @@
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button onclick="document.getElementById('myImage').src='img/gradient-zero-commission-sale-banner_52683-98503.avif'" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
               Accordion Item #3
             </button>
           </h2>
@@ -151,7 +150,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <img class="img-fluid" src="img/bitcoin.webp" alt="">
+      <img class="img-fluid" src="img/bitcoin.webp" alt="" id="myImage">
     </div>
   </div>
 </div>
@@ -216,7 +215,6 @@
       </table>
     </div>
   </div>
- 
 </div>
 
     <div class="container-fluid">
@@ -227,68 +225,75 @@
           </div>
           <p class="text-center meta-title"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
             <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-          </svg>Lorem ipsum dolor sit ameati vel quidem tempore dicta laboriosam a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illumrendis nemo adipisci quibusdam. periam itaque maxime, odio ipsa. Esse.</p>
+          </svg>Lorem ipsum dolor sit ameati vel quideis nemo adipisci quibusdam. periam itaque maxime, odio ipsa. Esse.</p>
          <div class="btn meta-btn text-center">
-          <button type="button" onclick="window.location.href='https://www.apple.com/tr/store'" class="btn btn-outline-light meta-btn1 d-flex align-items-center justify-content-center fw-bolder"><i class="fa-brands fa-apple fa-2xl"></i>Dowloand on the APP STORE</button>
+          <button type="button" onclick="window.location.href='https://www.apple.com/tr/store'" class="btn btn-outline-light meta-btn1 d-flex align-items-center justify-content-center fw-bolder"><i class="fa-brands fa-apple fa-2xl"></i>Dowloand on the  APP STORE</button>
           <button type="button" onclick="window.location.href='https://play.google.com/store/games?hl=tr&gl=US'" class="btn btn-outline-light meta-btn2 d-flex align-items-center justify-content-center fw-bolder"><i class="fa-brands fa-android fa-2xl"></i>Get İt On Google Play</button>
          </div>
         </div>
       </div>
     </div>   
-<div class="container nav py-4 my-4">
-  <div class="row">
-    <div class="col-md-12 tab">
-      <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-          <button class="nav-link active home fs-3 " id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Home</button>
-          <button class="nav-link profile fs-3" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</button>
-          <button class="nav-link contact fs-3" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</button>
-          <button class="nav-link contact1 fs-3" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact1" type="button" role="tab" aria-controls="nav-contact1" aria-selected="false">Contact</button>
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-md-12">
+      <div class="tabs d-flex justify-content-center align-items-center img-fluid">
+        <div class="tab-2 ">
+          <label for="tab2-1" onclick="document.getElementById('myImage1').src='img/bitcoin.webp'" class="fw-bold">One</label>
+          <input id="tab2-1" name="tabs-two" type="radio" checked="checked">
+          <div>
+         
+          </div>
         </div>
-      </nav>
-      <div class="tab-content tabyukari" id="nav-tabContent">
-        <div class="tab-pane fade show active r1" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-          <img src="img/775fbafe02f22d7f20fb27cf47ed.jpg" alt="">
+        <div class="tab-2">
+          <label for="tab2-2" onclick="document.getElementById('myImage1').src='img/gradient-zero-commission-sale-banner_52683-98503.avif'" class="fw-bold">One</label>
+          <input id="tab2-2" name="tabs-two" type="radio">
+          <div>
+           
+          </div>
         </div>
-        <div class="tab-pane fade r1" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-          <img src="img/775fbafe02f22d7f20fb27cf47ed.jpg" alt="">
+        <div class="tab-2">
+          <label for="tab2-3" onclick="document.getElementById('myImage1').src='img/sale-banner-zero-commission-template-design_23-2149834592.avif'" class="fw-bold">One</label>
+          <input id="tab2-3" name="tabs-two" type="radio" >
+          <div>
+           
+          </div>
         </div>
-        <div class="tab-pane fade r1" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-          <img src="img/775fbafe02f22d7f20fb27cf47ed.jpg" alt="">
-        </div>
-        <div class="tab-pane fade r1" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact1-tab">
-          <img src="img/775fbafe02f22d7f20fb27cf47ed.jpg" alt="">
+        <div class="tab-2">
+          <label for="tab2-4" onclick="document.getElementById('myImage1').src='img/1655876562-8b760363b864400a06f7f5cd73f7dee4.png'" class="fw-bold">One</label>
+          <input id="tab2-4" name="tabs-two" type="radio">
+          <div>
+          </div>
         </div>
       </div>
     </div>
+    <img class="img-fluid d-flex justify-content-center align-items-center" src="img/bitcoin.webp" alt="" id="myImage1">
   </div>
 </div>
 
-<div class="container-fluid market">
-  <div class="row" style="position: relative;">
-    <div class="col-md-6 ">
-      <div class="radio rd-btn">
-        <div class="yesil" style="position: relative;">
-          <div>
-            <label for=""></label>
-          </div>
-          <input style="position: absolute; right: 0;" class="yesil" type="radio" id="yesil" name="gender" value="other" checked> 
-        </div>
-        
-        <input class="kirmizi" type="radio" id="kirmizi" name="gender" value="female">
-        <input class="sari" type="radio" id="sari" name="gender" value="other">
-        <input class="mor" type="radio" id="mor" name="gender" value="other">
-        <input class="mavi" type="radio" id="mavi" name="gender" value="other">
+<div class="container-fluid ">
+  <div class="row">
+    <div class="col-md-6 market">
+      <div id="radios">
+        <label for="input1"><span class="dot"></span></label>
+        <input  id="input1" name="radio" type="radio" />
+        <label for="input2"><span class="dot"></span></label>
+        <input  id="input2" name="radio" type="radio" />
+        <label for="input3"><span class="dot"></span></label>
+        <input  id="input3" name="radio" type="radio" />
+        <label for="input4"><span class="dot"></span></label>
+        <input  id="input4" name="radio" type="radio" />
+        <label for="input5"><span class="dot"></span></label>
+        <input  id="input5" name="radio" type="radio" />
+        <span id="slider"></span>
       </div>
     </div>
-
   </div>
 </div>
 
 <div class="container-fluid">
   <div class="row d-flex justify-content-center my-4 py-4">
     <div class="col-md-6 derece">
-      <h2 class="text-center">onem praesentium ducimus velit deleores tempora impedit quia!</h2>
+      <h2 class="text-center">Velit deleores tempora impedit quia!</h2>
       <p class="text-center">Lorem ipsum dolor sit a recabo natus dolorem ratione, tenetur rerum iste praesentium. Deserunt saepe ex officia sint eos iure, error, id, pariatur doloremque ea ratione.</p>
       <div class="img-fluid">
         <img class="img-fluid doksan" src="img/gradient-zero-commission-sale-banner_52683-98503.avif" alt="">
@@ -299,12 +304,8 @@
 
 <div class="container-fluid">
   <div class="row kartlik">
-    <div class="col-md-12 ">
-      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
-      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
-      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
-      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
-      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+    <div class="col-md-12 d-flex img-fluid flex-wrap">
+      <img class="img-fluid m-4 ani" src="img/w3c-html5-logo-html-logo-png-whiteblack-and-white-png-free-transparent-png-images-pngaaacom.png" width="150px" alt="">
       <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
       <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
       <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
@@ -314,6 +315,23 @@
       <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
     </div>
   </div>
+</div>
+<div class="container-fluid">
+  <div class="row kartlik">
+    <div class="col-md-12 d-flex img-fluid flex-wrap">
+      <img class="img-fluid m-4 ani" src="img/w3c-html5-logo-html-logo-png-whiteblack-and-white-png-free-transparent-png-images-pngaaacom.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+      <img class="img-fluid m-4" src="img/Old_Visa_Logo.svg.png" width="150px" alt="">
+    </div>
+  </div>
+</div>
+      
+ 
 <div class="footer">
   <!-- Remove the container if you want to extend the Footer to full width. -->
 <div class="container-fluid">
@@ -419,5 +437,6 @@
 <!-- End of .container -->
 </div>
 </div>
+<script src="site.js"></script>
 </body>
 </html>
