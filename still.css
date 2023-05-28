@@ -1,6 +1,15 @@
+
+
 .giris-btn .btn{
     border: 1px solid blue;
     border-radius: 20px; 
+}
+.giris-buton{
+    background-color: blue !important;
+}
+.giris-buton:hover{
+    background-color: white !important;
+    color: black;
 }
 .world{
     width: 50px;
@@ -19,10 +28,434 @@
     background-size:cover !important;
 }
 .endex{
-    position: relative;
-    right: 80px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 .yüzde-sifir{
     position: relative;
     top: 60px;
 }
+.demo
+{
+	padding: 1px 0;
+}
+.heading-title
+{
+	margin-bottom: 50px;
+}
+.pricingTable {
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    margin: 0 -15px;
+    text-align: center;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.pricingTable:hover{
+    border: 2px solid #e46367;
+    margin-top: -30px;
+}
+
+.pricingTable .pricingTable-header{
+    padding: 30px 10px;
+}
+
+.pricingTable .heading{
+    display: block;
+    color: #000;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size:21px;
+}
+
+
+.pricingTable .pricing-plans {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d0d0d0;
+    color: #000;
+    font-weight: 900;
+}
+
+.pricingTable .price-value{
+    color: #474747;
+    display: block;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 35px;
+    padding: 0 10px;
+}
+
+.pricingTable .price-value span{
+    font-size: 30px;
+}
+
+.pricingTable .subtitle{
+    color: #82919f;
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+.pricingTable .pricingContent ul{
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.pricingTable .pricingContent ul li{
+    padding: 20px 0;
+}
+
+.pricingTable .pricingContent ul li:nth-child(odd) {
+    background-color: #fff;
+}
+
+.pricingTable .pricingContent ul li:last-child{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.pricingTable .pricingTable-sign-up{
+    padding: 25px 0;
+}
+
+.pricingTable .btn-block{
+    width: 50%;
+    margin: 0 auto;
+    background: #e46367;
+    border:1px solid transparent;
+    padding: 10px 5px;
+    color:#fff;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition:0.3s ease;
+}
+
+.pricingTable .btn-block:after{
+    content: "\f090";
+    font-family: 'FontAwesome';
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.pricingTable:hover .btn-block{
+    background:#fff;
+    color: #e46367;
+    border:1px solid #e46367;
+}
+
+@media screen and (max-width:990px){
+    .pricingTable{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .pricingTable{
+       margin: 0 0 30px 0;
+    }
+}
+.meta{ 
+    background-image: url(img/612038_b4c4_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+.meta-title{
+    color: rgb(255, 255, 255);
+    padding-left:200px;
+    padding-right: 150px;
+    position: relative; 
+    bottom: 20px;
+}
+.meta-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meta-btn1{
+    color: white;
+    margin: 5px;
+    height: 70px;
+    width: 180px;
+    border-radius: 20px;
+}
+.meta-btn2{
+    margin: 5px;
+    height: 70px;
+    width: 180px;
+    border-radius: 20px;
+}
+table{
+    box-sizing: border-box;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 70px;
+    position: relative;
+    bottom: 50px;
+
+  
+}
+
+.tr,td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    
+}
+
+
+.mavi{
+    color: white;
+    background-color: blue;
+    border-top:6px solid blue;
+}
+
+
+.ust-mavi{
+    border-top: 6px solid blue;
+
+}
+.sag-mavi{
+    border-right: 6px solid blue;
+}
+.alt-mavi{
+    border-bottom: 6px solid rgb(5, 5, 223);
+}
+.sol-mavi{
+    border-left: 6px solid rgb(5, 5, 223);
+}
+tr:hover{
+    background-color: rgb(17, 0, 255);
+}
+.nohover{
+    pointer-events: none;
+}
+tr:hover {
+    color: rgb(255, 255, 255);
+  
+}
+.td:hover {
+    color: rgb(0, 0, 0);
+  
+}
+
+.satır:hover{
+    background-color: rgb(0, 4, 255);
+}
+.satır:hover .satır1{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.bordersiz{
+    border-right: 0;
+   border-color: white;
+   color: white;
+
+}
+.btn-primary{
+    color: white;
+    background-color: white;
+    border: none;
+}
+.satır:hover .bordersiz{
+ color: white;
+ border-radius: 10px;
+}
+.tab{
+    position: relative;
+    left: 300px;
+    top: 10px;
+   
+}
+.tabyukari{
+    position: relative;
+    bottom: 20px;
+}
+
+
+.home{
+    margin-right: 80px;
+    border: none !important;
+    display: inline-block;
+    padding-bottom: .25rem;
+    position: relative;
+    
+    
+}
+.profile{
+    margin-right: 80px;
+    border: none !important;
+    display: inline-block;
+    padding-bottom: .25rem;
+    position: relative;
+}
+.contact{
+    margin-right: 80px;
+    border: none !important;
+    display: inline-block;
+    padding-bottom: .25rem;
+    position: relative;
+}
+.contact1{
+    margin-right: 80px;
+    border: none !important;
+    display: inline-block;
+    padding-bottom: .25rem;
+    position: relative;
+}
+.home::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: blue;
+    transition: width 0.25s ease-out;
+   
+}
+.home:hover::before{
+    width: 100%;
+    display: inline-block;
+}
+.profile::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: blue;
+    transition: width 0.25s ease-out;
+   
+}
+.profile:hover::before{
+    width: 100%;
+    display: inline-block;
+}
+.contact::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: blue;
+    transition: width 0.25s ease-out;
+   
+}
+.contact:hover::before{
+    width: 100%;
+    display: inline-block;
+}
+.contact1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 5px;
+    background-color: blue;
+    transition: width 0.25s ease-out;
+   
+}
+.contact1:hover::before{
+    width: 100%;
+    display: inline-block;
+}
+.r1{
+    position: relative;
+    right: 250px;
+    top: 50px;
+}
+.market{
+    background-image: url(img/612038_b4c4_3.jpg);
+    height: 95vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn-market{
+    background-color: red;
+    display: grid;
+    width: 200px;
+}
+
+
+.special{
+background-color: green;    
+}
+.radio {
+	background:none;
+	padding: 350px;
+	border-radius: none;
+    display: grid;
+}
+
+.radio input {
+	width: 40px;
+	height: 40px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50px;
+	padding: 4px 8px;
+	background: #0026e2;
+	color: #bdbdbdbd;
+	font-size: 14px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	transition: all 100ms linear;
+}
+
+.radio input:checked {
+	background-color: red;
+	color: #fff;
+	box-shadow: 1px 1px 1px #ff0606;
+	text-shadow: 1px 1px 0px #79485f7a;
+    width: 80px;
+	height: 80px;
+ 
+
+}
+
+.radio input:before {
+	content: attr(label);
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.range{
+    position: relative;
+    top: 200px;
+}
+.derece{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+
+}
+@media screen and (max-width: 500px){
+    .doksan{
+        transform: rotate(90deg);
+        padding: 80px;
+     }
+    
+}
+.kartlik{
+    width: 100%;
+    height: 35vh;
+    background-color: rgba(169, 169, 169, 0.547);
+}
+
+
+
